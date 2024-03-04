@@ -8,3 +8,14 @@ Welcome to the ultimate web development learning resource! This repository is de
   - Forms
   - Table
   - Multimedia
+### 2. CSS
+  - Inline
+  - Internal
+  - External
+  - CSS 2
+      - Text Styling
+      - Table Styling
+      - Test Transformation
+  - CSS 3
+      - Transformation
+      - Grid
