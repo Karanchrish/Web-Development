@@ -1,2 +1,10 @@
-# Web-Development
-Embark on your web development journey! Start with HTML basics, creating the structure of web pages. Dive into CSS to style and design, mastering layouts with Flexbox and Grid. Move to JavaScript for dynamic, interactive websites
+# Comprehensive Web Development Learning Repository 🌐
+
+Welcome to the ultimate web development learning resource! This repository is designed to cover HTML, CSS, and JavaScript comprehensively, from the basics to advanced topics. Whether you are a beginner or looking to sharpen your skills, this repository has got you covered.
+
+## Table of Contents
+### 1. HTML
+  - Formatting
+  - Forms
+  - Table
+  - Multimedia
