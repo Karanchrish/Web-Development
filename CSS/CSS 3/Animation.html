@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+<head>
+    
+    <title>CSS3</title>
+    <style>
+    div
+        {
+            background-color: deeppink;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            animation-name: basic;
+            animation-iteration-count: 3;  
+            animation-duration: 7s; 
+            text-align: center;
+            padding-top: 50px;    
+           
+        }
+        @keyframes basic {
+          0%
+         {
+                background-color: red;
+                top:0px;
+                left:0px;
+                  }
+           25%
+            {
+                background-color:green;
+                top:0px;
+                left: 500px;
+                transform: skewY(20deg);
+            }
+            50%
+            {
+                background-color: yellow;
+                top:500px;
+                left: 500px;
+            }
+            75%
+            {
+                background-color: black;
+                top:500px;
+                left:0px;
+            }
+            100%
+            {
+                background-color: aquamarine;
+                top:0px;
+            }
+        }
+          
+    </style>
+</head>
+<body>
+    <div>
+<h1>CSS3</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<Html>
+<head>
+	<title>Grid Layout</title>
+	<style>
+		.child{
+			border: 2px solid red;
+			background-color: pink;
+			color: black;
+		}
+		.parent{
+			display: grid;
+			grid-template-columns: 400px 400px 400px;
+			grid-auto-rows: 140px;
+			grid-auto-rows: 140px;
+		}
+		.one{
+			grid-column: span 3;
+		}
+			.three{
+			grid-column: span 2;
+		}
+			.five{
+	
+			grid-column: span 3;
+		}
+	</style>
+	<body>
+		 <div class="parent">
+        <div class="child one">The HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser.</div>
+        <div class="child two">2</div>
+        <div class="child three">3</div>
+        <div class="child four">Cascading Style Sheets is a style sheet language used for describing the presentation of a document</div>
+        <div class="child">5</div>
+        <div class="child six">6</div>
+        <div class="child seven">7</div>
+        <div class="child">8</div>
+        <div class="child nine">JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</div>
+</body>
+</head>
+</Html>
