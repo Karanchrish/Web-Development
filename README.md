@@ -17,5 +17,5 @@ Welcome to the ultimate web development learning resource! This repository is de
       - Table Styling
       - Test Transformation
   - CSS 3
-      - Transformation
+      - Animation
       - Grid
