@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <script>
+            function validationf() {
+                var name = document.forms.RegForm.Name.value;
+                var email = document.forms.RegForm.Name.value;
+                var phone = document.forms.RegForm.Telephone.value;
+                var password = document.forms.RegForm.Password.value;
+                var address = document.forms.RegForm.Address.value;
+                
+                var regPhone=/^\d{10}$/;                                    
+            var regName =/^[a-zA-Z]$/;                           
+                if (name == "" || !regName.test(name)) {
+                    window.alert("Please enter your name properly.");
+                    return false;
+                }
+ 
+                if (address == "") {
+                    window.alert("Please enter your address.");
+                    return false;
+                }         
+                                 
+                if (password == "") {
+                    alert("Please enter your password");
+                    return false;
+                } 
+
+                if(password.length <6){
+                alert("Password should be atleast 6 character long");
+                return false; 
+                }
+
+                if (phone == "" || !regPhone.test(phone)) {
+                 alert("Please enter valid phone number.");
+                return false;
+                }
+
+              if(comment=="")
+              {
+              alert("Please leave your comment");
+              return false;
+             }               
+                return true;
+            }
+        </script> 
+        </head> 
+        <body>
+        <h1 style="text-align: center;">REGISTRATION FORM</h1>
+        <form name="RegForm" onsubmit="return validationf()" action="file.html">
+        <label>Enter your  name</label>           
+        <input type="text" size="15" name="Name" /> 
+            <br><br>
+        <label>Enter your address</label>       
+        <input type="text"  size="15" name="Address" />
+             <br><br>
+        <label>Enter your email</label>        
+        <input type="email"  size="15" name="EMail" /> 
+        <br><br>
+        <label>Enter Password</label>        
+        <input type="password" size="15" name="Password" />
+        <br><br>
+        <label>Enter your phone number</label>     
+        <input type="text"  size="15" name="Telephone" />
+         <br><br>           
+         <label>Select a course</label> 
+         <select type="text" value="" name="Subject">        
+          <option>BTECH</option>
+         <option>BE</option>
+         <option>MBA</option>                    
+          </select>           
+          <br><br>
+         <label>Enter your comments</label> <br>
+        <textarea cols="25" name="Comment"> </textarea>
+        <br><br>
+         <input type="submit" value="send" name="Submit" />
+         <input type="reset" value="Reset" name="Reset" />          
+         </form>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+<html>
+<body>
+<h2>AJAX</h2>
+<p>AJAX stands for Asynchronous JavaScript and XML. </p>
+<p>XML is commonly used as the format for receiving server data, although any format, including plain text, can be used.</p>
+<p>AJAX is a web browser technology independent of web server software.</p>
+</body>
+</html>
