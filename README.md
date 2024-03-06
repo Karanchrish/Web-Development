@@ -19,3 +19,8 @@ Welcome to the ultimate web development learning resource! This repository is de
   - CSS 3
       - Animation
       - Grid
+### 3. Java Script
+  - Functions
+  - OOPS
+  - BOM
+  - AJAX
